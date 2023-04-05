@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9dcdc0;
+  /* background-color: #f6c0d0; */
+  text-align: center;
+  margin-top: 6%;
+}
+
+.container {
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h1,
+h3 {
+  margin-bottom: 20px;
+}
+header {
+  margin-left: 40px;
+}
+
+p {
+  color: #710000;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  text-decoration-line: underline;
+  line-space: -5px;
+}
+
+ul {
+  list-style: none;
+}
+
+table,
+th,
+td {
+  background-color: #494850;
+  color: #d8d8f6;
+  margin-left: 28%;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+/* fd */
+
+.twitter,
+.linkedin,
+.github {
+  border-radius: 20px;
+}
+
+.contact {
+  align-items: end;
+  grid-column: 1 / 4;
+}
+.Portfolio {
+  display: grid;
+  grid-template-columns: 250px 2fr 1fr;
+  align-items: center;
+  gap: 10px;
+  row-gap: 10px;
+}
+
+.education {
+  justify-self: start;
+}
+
+.interests {
+  margin-top: 20px;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.MY-interest {
+  border-top: 5px solid #119da4;
+  border-bottom: 5px solid #119da4;
+}
